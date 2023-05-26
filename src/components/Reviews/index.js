@@ -16,8 +16,8 @@ const AboutUs = () => (
             <ClientCard1>
             <Profile/>
             <ClientDesContainer>
-            <ClientName>Sandeep Menon</ClientName>
-            <ClientDescription>Exceptional service right from communication at the start till delivery Requirements met very well</ClientDescription>
+            <ClientName>Siddhi Joshi</ClientName>
+            <ClientDescription>Very quick service and extremely professional. Thank you Prabhisha the CV is extremely well written and laid out. Highly recommended!!!</ClientDescription>
             </ClientDesContainer>
             
                 
@@ -25,8 +25,8 @@ const AboutUs = () => (
             <ClientCard1>
             <Profile/>
             <ClientDesContainer>
-            <ClientName>Sandeep Menon</ClientName>
-            <ClientDescription>Exceptional service right from communication at the start till delivery Requirements met very well</ClientDescription>
+            <ClientName>Ooha Rao Myneni</ClientName>
+            <ClientDescription>Excellent service.. patiently worked on feedback until I am fully satisfied</ClientDescription>
             </ClientDesContainer>
             
                 
