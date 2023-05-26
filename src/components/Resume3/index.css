@@ -1,0 +1,220 @@
+.App {
+    text-align: center;
+    font-family: "Roboto";
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .entire-details {
+    display: flex;
+    flex-direction: column;
+  }
+  .basic-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .bg-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+  }
+  
+  @media screen and (min-width: 612px) {
+    .entire-details {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .basic-details {
+      display: flex;
+      flex-direction: column;
+      margin-right: 20px;
+      width: 500px;
+    }
+    .education-section {
+      display: flex;
+      flex-direction: column;
+      margin-right: 20px;
+      width: 500px;
+    }
+    .skills-section {
+      display: flex;
+      flex-direction: column;
+      margin-right: 20px;
+      width: 500px;
+    }
+    .experience-section {
+      display: flex;
+      flex-direction: column;
+      margin-right: 20px;
+      width: 500px;
+    }
+    .description-section {
+      display: flex;
+      flex-direction: column;
+      width: 500px;
+    }
+  
+    .username-input-field {
+      width: 80%;
+    }
+  }
+  
+  .profile-radius {
+    background-color: rgb(252, 215, 175);
+    border-radius: 0px 0px 90px 90px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 226px;
+  }
+  .template-image {
+    width: 40vw;
+  }
+  
+  .pdf-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .temp-image {
+    min-height: 100vh;
+    width: 40vw;
+  }
+  
+  .form-container {
+    min-height: 500px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-img-tag {
+    text-align: center;
+    color: #183b56;
+    letter-spacing: -1px;
+    margin-top: -20px;
+    margin-bottom: 0;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    padding-top: 30px;
+  }
+  .input-label {
+    margin-bottom: 3px;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    color: #475569;
+    padding-top: 25px;
+    margin-top: 20px;
+    padding-left: 5px;
+  }
+  
+  .username-input-field {
+    font-size: 14px;
+    height: 32px;
+    border: 3px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+  
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    width: 80%;
+  }
+  .add-btn {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow, transform;
+    background: radial-gradient(100% 100% at 100% 0%, #89e5ff 0%, #5468ff 100%);
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+      0px 7px 13px -3px rgb(45 35 66 / 30%),
+      inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 22px;
+    margin: 20px;
+    border-radius: 6px;
+    color: #fff;
+    height: 40px;
+    margin-left: 0px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+    width: 170px;
+  }
+  .add-btn:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%),
+      0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+    transform: translateY(-2px);
+  }
+  .add-btn :active {
+    box-shadow: inset 0px 3px 7px #3c4fe0;
+    transform: translateY(2px);
+  }
+  
+  .download_btn {
+    padding: 10px 40px 10px 10px;
+    font-size: 16px;
+    background-color: #0f62fe;
+    color: #fff;
+    border: 1px solid #0000;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 5px;
+    width: 250px;
+    color: white;
+    text-decoration: none;
+  }
+  .download_btn:hover {
+    background-color: #0353e9;
+    color: white;
+    text-decoration: none;
+  }
+  .download_btn > i {
+    margin-right: 5px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .download_link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .pdf-container {
+    display: flex;
+  }
+  .left-view {
+    width: 30%;
+    background-color: #f8efe4;
+  }
